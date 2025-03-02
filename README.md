@@ -11,9 +11,13 @@ Colima is a container runtime for macOS that provides a lightweight and fast env
 
 ### Installation Steps
 
+
 Before installing Colima, you'll need Homebrew package manager. Here's how to install it:
 
 1. **Install Homebrew**
+## 🍺 Installing Homebrew
+
+Before installing Colima, you'll need Homebrew package manager. Here's how to install it:
 
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
