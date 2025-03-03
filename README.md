@@ -1,5 +1,15 @@
 # Portainer Kubernetes Local Development
 
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installing Homebrew 🍺](#-installing-homebrew)
+- [Installing kubectl ☸️](#installing-kubectl)
+- [Setting up Colima 🐳](#setting-up-colima-for-kubernetes-development)
+- [Installing Portainer 🐳](#installing-portainer-in-kubernetes)
+- [Installing Kubernetes Dashboard ☸️](#installing-kubernetes-dashboard)
+- [Installing Jenkins 🤖](#installing-jenkins)
+- [Additional Resources](#additional-resources)
+
 ## 🐳 Setting up Colima for Kubernetes Development
 
 Colima is a container runtime for macOS that provides a lightweight and fast environment for running containers. It supports Kubernetes, making it a great choice for local development.
@@ -44,7 +54,38 @@ Before installing Colima, you'll need Homebrew package manager. Here's how to in
    ```
 
 ---
+## ☸️ Installing kubectl
 
+Before proceeding with Kubernetes setup, you'll need kubectl command-line tool:
+
+1. **Install kubectl**
+
+   ```bash
+   brew install kubectl
+   ```
+
+2. **Verify Installation**
+
+   ```bash
+   kubectl version --client
+   ```
+
+3. **Enable kubectl Shell Completion (optional)**
+
+   For zsh users:
+   ```bash
+   echo '[[ $commands[kubectl] ]] && source <(kubectl completion zsh)' >> ~/.zshrc
+   source ~/.zshrc
+   ```
+
+   For bash users:
+   ```bash
+   echo 'source <(kubectl completion bash)' >> ~/.bashrc
+   source ~/.bashrc
+   ```
+
+---
+## ☸️ Installing Colima
 1. **Install Colima**
 
    ```bash
