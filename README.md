@@ -3,8 +3,8 @@
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Installing Homebrew 🍺](#-installing-homebrew)
-- [Installing kubectl ☸️](#-installing-kubectl)
-- [Installing Colima ☸️](#-installing-colima)
+- [Installing kubectl ☸️](# -installing-kubectl)
+- [Installing Colima ☸️](# -installing-colima)
 - [Installing Portainer 🐳](#-installing-portainer-in-kubernetes)
 - [Installing Kubernetes Dashboard ☸️](#-installing-kubernetes-dashboard)
 - [Installing Jenkins 🤖](#-installing-jenkins)
