@@ -1,14 +1,25 @@
-# Portainer Kubernetes Local Development
+# Portainer Kubernetes Local Development$$
+
 
 ## Table of Contents
-- [Prerequisites](#prerequisites)
-- [Installing Homebrew 🍺](#-installing-homebrew)
-- [Installing kubectl ☸️](# -installing-kubectl)
-- [Installing Colima ☸️](# -installing-colima)
-- [Installing Portainer 🐳](#-installing-portainer-in-kubernetes)
-- [Installing Kubernetes Dashboard ☸️](#-installing-kubernetes-dashboard)
-- [Installing Jenkins 🤖](#-installing-jenkins)
-- [Additional Resources](#-additional-resources)
+- [Portainer Kubernetes Local Development$$](#portainer-kubernetes-local-development)
+  - [Table of Contents](#table-of-contents)
+  - [🐳 Setting up Colima for Kubernetes Development](#-setting-up-colima-for-kubernetes-development)
+    - [Prerequisites](#prerequisites)
+    - [Installation Steps](#installation-steps)
+  - [🍺 Installing Homebrew](#-installing-homebrew)
+  - [☸️ Installing kubectl](#️-installing-kubectl)
+  - [☸️ Installing Colima](#️-installing-colima)
+    - [Usage](#usage)
+    - [Troubleshooting](#troubleshooting)
+  - [🐳 Installing Portainer in Kubernetes](#-installing-portainer-in-kubernetes)
+    - [Portainer Components](#portainer-components)
+    - [Troubleshooting Portainer](#troubleshooting-portainer)
+  - [☸️ Installing Kubernetes Dashboard](#️-installing-kubernetes-dashboard)
+  - [🤖 Installing Jenkins](#-installing-jenkins)
+    - [Troubleshooting Jenkins](#troubleshooting-jenkins)
+    - [Additional Resources](#additional-resources)
+
 
 ## 🐳 Setting up Colima for Kubernetes Development
 
@@ -134,7 +145,7 @@ colima logs
 
 ---
 
-### 🐳 Installing Portainer in Kubernetes
+## 🐳 Installing Portainer in Kubernetes
 
 Portainer provides a web interface to manage your Kubernetes cluster. Follow these steps to install it:
 
@@ -200,7 +211,7 @@ kubectl get svc -n portainer
 kubectl logs -n portainer deployment/portainer
 ```
 ---
-### ☸️ Installing Kubernetes Dashboard
+## ☸️ Installing Kubernetes Dashboard
 
 The Kubernetes Dashboard provides a web UI to manage your cluster. Here's how to install and access it:
 
@@ -277,7 +288,7 @@ The Kubernetes Dashboard provides a web UI to manage your cluster. Here's how to
 
 ---
 
-### 🤖 Installing Jenkins
+## 🤖 Installing Jenkins
 
 Jenkins can be deployed in your Kubernetes cluster using the provided configuration. Here's how to install and access it:
 
