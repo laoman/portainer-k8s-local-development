@@ -2,24 +2,13 @@
 
 
 ## Table of Contents
-- [Portainer Kubernetes Local Development$$](#portainer-kubernetes-local-development)
-  - [Table of Contents](#table-of-contents)
   - [🐳 Setting up Colima for Kubernetes Development](#-setting-up-colima-for-kubernetes-development)
-    - [Prerequisites](#prerequisites)
-    - [Installation Steps](#installation-steps)
   - [🍺 Installing Homebrew](#-installing-homebrew)
   - [☸️ Installing kubectl](#️-installing-kubectl)
   - [☸️ Installing Colima](#️-installing-colima)
-    - [Usage](#usage)
-    - [Troubleshooting](#troubleshooting)
   - [🐳 Installing Portainer in Kubernetes](#-installing-portainer-in-kubernetes)
-    - [Portainer Components](#portainer-components)
-    - [Troubleshooting Portainer](#troubleshooting-portainer)
   - [☸️ Installing Kubernetes Dashboard](#️-installing-kubernetes-dashboard)
   - [🤖 Installing Jenkins](#-installing-jenkins)
-    - [Troubleshooting Jenkins](#troubleshooting-jenkins)
-    - [Additional Resources](#additional-resources)
-
 
 ## 🐳 Setting up Colima for Kubernetes Development
 
