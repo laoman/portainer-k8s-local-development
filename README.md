@@ -3,12 +3,12 @@
 ## Table of Contents
 - [Prerequisites](#prerequisites)
 - [Installing Homebrew 🍺](#-installing-homebrew)
-- [Installing kubectl ☸️](#installing-kubectl)
-- [Setting up Colima 🐳](#setting-up-colima-for-kubernetes-development)
-- [Installing Portainer 🐳](#installing-portainer-in-kubernetes)
-- [Installing Kubernetes Dashboard ☸️](#installing-kubernetes-dashboard)
-- [Installing Jenkins 🤖](#installing-jenkins)
-- [Additional Resources](#additional-resources)
+- [Installing kubectl ☸️](#-installing-kubectl)
+- [Setting up Colima 🐳](#-setting-up-colima-for-kubernetes-development)
+- [Installing Portainer 🐳](#-installing-portainer-in-kubernetes)
+- [Installing Kubernetes Dashboard ☸️](#-installing-kubernetes-dashboard)
+- [Installing Jenkins 🤖](#-installing-jenkins)
+- [Additional Resources](#-additional-resources)
 
 ## 🐳 Setting up Colima for Kubernetes Development
 
