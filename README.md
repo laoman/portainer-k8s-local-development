@@ -4,7 +4,7 @@
 - [Prerequisites](#prerequisites)
 - [Installing Homebrew 🍺](#-installing-homebrew)
 - [Installing kubectl ☸️](#-installing-kubectl)
-- [Setting up Colima 🐳](#-setting-up-colima-for-kubernetes-development)
+- [Installing Colima ☸️](#-installing-colima)
 - [Installing Portainer 🐳](#-installing-portainer-in-kubernetes)
 - [Installing Kubernetes Dashboard ☸️](#-installing-kubernetes-dashboard)
 - [Installing Jenkins 🤖](#-installing-jenkins)
@@ -20,7 +20,6 @@ Colima is a container runtime for macOS that provides a lightweight and fast env
 - Homebrew (package manager for macOS)
 
 ### Installation Steps
-
 
 Before installing Colima, you'll need Homebrew package manager. Here's how to install it:
 
