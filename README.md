@@ -1,4 +1,4 @@
-# Portainer Kubernetes Local Development$$
+# Portainer Kubernetes Local Development
 
 
 ## Table of Contents
